@@ -1,0 +1,88 @@
+@import url(../../assets/css/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1146px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo:hover {
+    cursor: pointer;
+}
+
+.header__logo_text {
+    color: rgba(10, 20, 58, 1);
+    margin-left: 6px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header__items {
+    margin-left: 6px;
+}
+
+.header__items_list {
+    list-style: none;
+}
+
+.header__items_list_items {
+    display: inline;
+    color: rgba(10, 20, 58, 1);
+    margin: 0 14px;
+}
+
+.header__items_list_items:first-child {
+    text-decoration: underline;
+}
+
+.header__items_list_items:hover {
+    text-decoration: underline;
+}
+
+.header__items_list_items_text {
+    text-decoration: none;
+    color: rgba(10, 20, 58, 1);
+}
+
+.header__buttons {
+    margin-left: 300px;
+}
+
+.header__buttons_reg { 
+    width: 161px;
+    border: none; 
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.header__buttons_post {
+    height: 36px;
+    width: 161px;
+    cursor: pointer;
+    background-color: rgba(37, 110, 235, 1);
+    color: white;
+    border: none; 
+    outline: none;
+    border-radius: 5px;
+}
